@@ -1,7 +1,48 @@
 @charset "utf-8";
 
-.main-section {
-    height: 100%;
+.main-section-resgate {
     display: flex;
     justify-content: center;
+}
+
+.main-section-resgate > iframe {
+    width: 640px;
+    height: 1188px; 
+    margin: unset;
+}
+
+/* Responsividade */
+
+@media(max-width: 677px) {
+    .main-section-resgate > iframe {
+        width: 100%;
+    }
+
+    .main {
+        padding: auto 0px;
+    }
+}
+
+@media(max-width: 493px) {
+    .main-section-resgate > iframe {
+        height: 1295px;
+    }
+}
+
+@media(max-width: 435px) {
+    .main-section-resgate > iframe {
+        height: 1330px;
+    }
+}
+
+@media(max-width: 413px) {
+    .main-section-resgate > iframe {
+        height: 1400px;
+    }
+}
+
+@media(max-width: 285px) {
+    .main-section-resgate > iframe {
+        height: 1600px;
+    }
 }

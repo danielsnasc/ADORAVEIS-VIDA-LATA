@@ -18,3 +18,27 @@
     justify-content: center;
     align-items: center;
 }
+
+/* responsividade */
+
+@media(max-width: 720px) {
+    .main-section-sobre {
+        width: 75%;
+    }   
+}
+
+@media(max-width: 522px) {
+    .main-section-sobre {
+        width: 90%;
+    }  
+    
+    .main-section-sobre > p {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .main-section-sobre {
+        width: 95%;
+    }   
+}

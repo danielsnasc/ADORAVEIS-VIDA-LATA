@@ -1,5 +1,6 @@
 function load(){
-    document.querySelector(".ResponsiveMenu").addEventListener('click',menu);
+    let element = document.querySelector(".ResponsiveMenu");
+    element.addEventListener('click',menu);
 }
 
 function menu() {

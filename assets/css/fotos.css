@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.main-section-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 10%;
+    justify-content: space-around;
+}
+
+.main-section-fotos > img {
+    width: 25%;
+    flex-basis: 10%;
+    margin: 30px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    image-rendering: optimizeQuality;
+}
+
+.main-section-fotos > img:hover {           
+    transform: scale(1.02);
+    cursor: pointer;
+}

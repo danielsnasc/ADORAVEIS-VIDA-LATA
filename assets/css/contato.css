@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section-contato {
+    width: 25%;
+    min-height: 50%;
+    padding: 2%;
+    border-radius: 24px;
+    background-color: #00B2F0;
+    color: #fff;
+}
+
+.title-contato {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "image text"
+    ;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3B487F;
+}
+
+.title-contato > .image-contato {
+    grid-area: image;
+    background-position: center;
+    background-size: contain;
+}
+
+.title-contato > .text-contato {
+    grid-area: text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.title-contato > .text-contato > p {
+    margin-left: -50px;
+}
+
+.main-section-contato > .p-text {
+    text-align: center;
+    font-size: 1.6rem;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.title-contato > #image-telefone {
+    background-image: url("../img/iconeTelefone.png");
+}
+
+.title-contato > #image-instagram {
+    background-image: url("../img/iconeInstagram.png");
+}
+
+.title-contato > #image-email {
+    background-image: url("../img/iconeEmail.png");
+}

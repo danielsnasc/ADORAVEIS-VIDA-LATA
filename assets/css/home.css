@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.main-section-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.main-section-home > * {
+    margin: 20px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.main-section-home > *:hover {
+    transform: scale(1.03);
+}
